@@ -7,4 +7,3 @@ image_path = ""
 image = cv2.imread(image_path)
 imshow(image)
 
-# test message 
