@@ -5,7 +5,7 @@ import cv2
 import os
 
 
-image_path = "c:/Nico/Natangwe Arts/keras-io/code/nora_schnee.jpg"
+image_path = "c:/Nico/Natangwe Arts/keras-io/code/images/nora_snow.jpg"
 print(image_path)
 image = cv2.imread(image_path)
 height, width, _ = image.shape
@@ -26,6 +26,6 @@ cv2.imshow("test", mask)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-imagename = "code/nora_snow_mask.jpg"
+imagename = "code/images/nora_snow_mask.jpg"
 cv2.imwrite(imagename, mask)
 
